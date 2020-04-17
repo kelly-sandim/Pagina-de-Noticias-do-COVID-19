@@ -43,3 +43,15 @@ h1, h2, h3, h4, h5, h6
     justify-content: space-between;
     margin: 0 150px 0 150px;
 }
+
+a 
+{
+    color: #424242;
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #424242;
+}
+a:hover {
+    color: blue;
+}
