@@ -55,3 +55,23 @@ a:link, a:visited {
 a:hover {
     color: blue;
 }
+
+section
+{
+    display:flex;   
+    flex-wrap: wrap;
+}
+
+section .noticiaCorpo
+{
+    flex: 1;
+    padding: 10px;
+    text-align: justify;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.noticiaFoto
+{
+    width: 100%;      
+}
