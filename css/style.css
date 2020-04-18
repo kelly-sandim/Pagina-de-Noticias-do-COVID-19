@@ -88,7 +88,7 @@ iframe.youtubeVideo {
     max-width: 100%;
 }
 
-#tituloSobreMim, #h1Contatenos
+#tituloSobreMim, #h1Contatenos, #h1SaibaMais
 {
     font-size: 40px;
     text-align: center;
@@ -185,5 +185,34 @@ li
 #flexList li a
 {
     padding: 10px;
+}
+
+#bodySaibaMais
+{
+    background-color: #333;
+}
+
+#headerSaibaMais
+{
+    background-color: #f5f5f5;    
+    width: 99vw;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    padding: 8px;
+    margin-left: -10px;
+}
+
+#mainSaibaMais
+{
+    width: 50%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
